@@ -41,7 +41,6 @@ OBJS =  _start.o\
 		process.o\
 		system.o\
 		timer.o\
-		pci.o\
 		
 		
 		
