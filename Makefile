@@ -79,7 +79,6 @@ OBJS =  $(KERNEL_DIR)_start.o\
 		$(KERNEL_DIR)process.o\
 		$(KERNEL_DIR)system.o\
 		$(KERNEL_DIR)timer.o\
-		$(KERNEL_DIR)pci.o\
 		$(FS_DIR)fs_module.o\
 		$(INIT_DIR)main.o\
 		$(GUI_DIR)main.o\
@@ -95,7 +94,6 @@ OBJS =  $(KERNEL_DIR)_start.o\
 		$(DEVICE_DIR)video.o\
 		$(DEVICE_DIR)ramdisk.o\
 		$(DEVICE_DIR)mouse.o\
-		$(DEVICE_DIR)pci.o\
 		$(DEVICE_DIR)device.o\
 		$(LIB_DIR)string.o\
 		$(LIB_DIR)vsprintf.o\
